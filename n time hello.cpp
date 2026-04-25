@@ -1,19 +1,15 @@
 #include <iostream>
 using namespace std;
-int main(){
-	
-//int n;
-//cout<<"Enter a number"<<endl;
-//cin>>n;
 
-int num;
-cout<<"Enter number for reverse"<<endl;
-cin>>num;
+int main() {
+    
+    int n;
+    cout << "Enter number: ";
+    cin >> n;
 
-int d1 = num/100;
-int d2 = (num/10)%10;
-int d3 = num % 10;
+    for(int i = 1; i <= n; i++) {
+        cout << "Hello World" << endl;
+    }
 
-int reverse= d3 * 100 + d2 * 10 + d1;
-cout<<"Reverse is: "<<reverse<<endl;
+    return 0;
 }
