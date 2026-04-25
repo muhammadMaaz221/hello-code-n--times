@@ -77,8 +77,7 @@ Hello World
 
 ## 🙌 Author
 
-Your Name
-
+Muhammad Maaz
 ---
 
 ## ⭐ Support
